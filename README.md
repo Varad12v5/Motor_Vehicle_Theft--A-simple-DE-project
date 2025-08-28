@@ -7,6 +7,20 @@ An end‑to‑end data engineering project that implements the **Medallion Archi
 ```
 Local PC  →  ADF  →  ADLS Gen2 (Bronze)  →  Databricks (Transform)  →  ADLS Gen2 (Silver → Gold)  →  Power BI
 ```
+---
+
+## 🏗️ Architecture
+
+Below is the high-level architecture diagram of the Vehicle Theft Medallion Pipeline:
+
+![Architecture Diagram](./images/architecture.png)
+
+The architecture shows the complete data flow from source to visualization:
+1. Data ingestion from local source via ADF SHIR
+2. Bronze layer storage in ADLS Gen2
+3. Transformation in Databricks
+4. Silver and Gold layer storage
+5. Final visualization in Power BI
 
 ---
 
