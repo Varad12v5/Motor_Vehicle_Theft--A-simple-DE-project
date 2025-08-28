@@ -5,7 +5,7 @@
 An end‑to‑end data engineering project that implements the **Medallion Architecture (Bronze → Silver → Gold)** for stolen‑vehicle data. Raw data is copied from a **local PC** to **Azure Data Lake Storage Gen2 (ADLS Gen2)** using **Azure Data Factory (ADF) with a Self‑Hosted Integration Runtime (SHIR)**. Data is then transformed in **Azure Databricks** and written to **Silver** and **Gold** layers. Finally, the **Gold** data powers **Power BI** dashboards.
 
 ```
-Local PC  →  ADF (SHIR)  →  ADLS Gen2 (Bronze)  →  Databricks (Transform)  →  ADLS Gen2 (Silver → Gold)  →  Power BI
+Local PC  →  ADF  →  ADLS Gen2 (Bronze)  →  Databricks (Transform)  →  ADLS Gen2 (Silver → Gold)  →  Power BI
 ```
 
 ---
