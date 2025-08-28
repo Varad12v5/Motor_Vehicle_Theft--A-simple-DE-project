@@ -13,7 +13,7 @@ Local PC  →  ADF  →  ADLS Gen2 (Bronze)  →  Databricks (Transform)  →  A
 
 Below is the high-level architecture diagram of the Vehicle Theft Medallion Pipeline:
 
-![Architecture Diagram](./images/architecture.png)
+![Architecture Diagram](./images/archi.png)
 
 The architecture shows the complete data flow from source to visualization:
 1. Data ingestion from local source via ADF SHIR
